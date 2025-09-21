@@ -1,0 +1,1 @@
+ได้ฝึกการใช้พวก array high order function มาประยุกต์มากขึ้น
