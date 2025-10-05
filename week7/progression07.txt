@@ -1,0 +1,1 @@
+ได้รู้จักการใช้ get element id มากขึ้น รู้จัก sibling child descendantมากขึ้น

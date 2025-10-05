@@ -1,5 +1,5 @@
 1.ได้ฝึกการใช้พวก array high order function มาประยุกต์มากขึ้น
-2.
-3.
+2.ได้รู้จักการใช้ get element id มากขึ้น รู้จัก sibling child descendantมากขึ้น
+3.ได้รู้จักการใช้ selector พวก query foreach อะไรต่างๆมากขึ้น
 4.
 5.
