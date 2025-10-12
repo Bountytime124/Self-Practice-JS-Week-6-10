@@ -1,8 +1,3 @@
-// เฉลยโค้ด JavaScript
-
-// -----------------------------------------------------
-// เตรียมการเลือก Element ที่จำเป็น
-// -----------------------------------------------------
 const titleToChange = document.getElementById('title-to-change');
 const changeTextBtn = document.getElementById('change-text-btn');
 
