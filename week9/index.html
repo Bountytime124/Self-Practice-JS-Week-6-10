@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Practice Lab</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        #output-area { border: 1px solid #ccc; padding: 15px; margin-top: 20px; min-height: 50px; background-color: #f9f9f9; }
+        .highlight { background-color: yellow; font-weight: bold; }
+        .task-list { list-style: none; padding: 0; }
+        .task-list li { margin-bottom: 5px; padding: 5px; border-bottom: 1px dotted #eee; }
+    </style>
+</head>
+<body>
+
+    <h1>DOM Manipulation Challenge</h1>
+
+    <h2 id="title-to-change">Original Title: Click Button to Change Me</h2>
+    <button id="change-text-btn">1. Change Title Text</button>
+
+    <hr>
+
+    <h3>2. Dynamic List</h3>
+    <ul id="dynamic-list" class="task-list">
+        <li>Task 1: Learn DOM</li>
+    </ul>
+    <button id="add-item-btn">Add New Item</button>
+
+    <hr>
+
+    <h3>3. Toggle Highlight</h3>
+    <div id="box-to-toggle" style="width: 200px; height: 50px; background-color: lightblue; border: 1px solid blue; text-align: center; line-height: 50px;">
+        Click Me to Highlight!
+    </div>
+    
+    <hr>
+
+    <h3>4. & 5. Form Input & Delete Item</h3>
+    <input type="text" id="user-input" placeholder="Enter text to add">
+    <button id="submit-btn">4. Add to Output</button>
+    <button id="delete-btn">5. Delete Last Output</button>
+
+    <div id="output-area">
+        Output Display Area:
+    </div>
+
+    <script src="main.js">
+        
+    </script>
+
+</body>
+</html>
