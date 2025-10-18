@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ตั้งค่าหน้าเว็บ</title>
+<style>
+  body.small { font-size: 14px; }
+  body.medium { font-size: 18px; }
+  body.large { font-size: 24px; }
+  label { display: block; margin-top: 10px; }
+  button { margin-top: 20px; margin-right: 10px; }
+</style>
+</head>
+<body>
+  <h1>ตั้งค่าหน้าเว็บ</h1>
+
+  <form id="settingsForm">
+    <label>
+      Background Color:
+      <input type="color" id="bgColor" name="bgColor" />
+    </label>
+
+    <label>
+      Font Color:
+      <input type="color" id="fontColor" name="fontColor" />
+    </label>
+
+    <label>
+      Font Size:
+      <select id="fontSize" name="fontSize">
+        <option value="small">เล็ก (Small)</option>
+        <option value="medium">กลาง (Medium)</option>
+        <option value="large">ใหญ่ (Large)</option>
+      </select>
+    </label>
+
+    <button type="button" id="saveBtn">Save Settings</button>
+    <button type="button" id="resetBtn">Reset</button>
+  </form>
+
+  <script src="main.js" type="module"></script>
+</body>
+</html>
+ 
